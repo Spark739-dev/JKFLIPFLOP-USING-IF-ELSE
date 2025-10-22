@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.0sp1/quartus/DE/JKFLIPFLOP/jkflipflop.v
+source_file = 1, C:/altera/13.0sp1/quartus/DE/JKFLIPFLOP/Waveform.vwf
+source_file = 1, C:/altera/13.0sp1/quartus/DE/JKFLIPFLOP/db/jkflipflop.cbx.xml
+design_name = jkflipflop
+instance = comp, \j~input , j~input, jkflipflop, 1
+instance = comp, \q~output , q~output, jkflipflop, 1
+instance = comp, \qbar~output , qbar~output, jkflipflop, 1
+instance = comp, \clk~input , clk~input, jkflipflop, 1
+instance = comp, \k~input , k~input, jkflipflop, 1
+instance = comp, \q~0 , q~0, jkflipflop, 1
+instance = comp, \q~reg0 , q~reg0, jkflipflop, 1
