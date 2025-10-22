@@ -77,3 +77,5 @@ step-6 Run the program.
 
 
 **RESULTS**
+
+Thus the JK flipflop is implemented and verified using Verilog HDL Programming.
