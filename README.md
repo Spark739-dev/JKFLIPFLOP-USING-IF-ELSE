@@ -68,10 +68,12 @@ step-6 Run the program.
 
 **RTL LOGIC FOR FLIPFLOPS**
 
-![1](../RTL.png)
+<img width="1918" height="1148" alt="RTL" src="https://github.com/user-attachments/assets/0b4a9fbb-9b87-43f3-9a7c-01df0d5f538e" />
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-![2](<../TIMINIG DIAGRAM.png>)
+<img width="1918" height="1140" alt="TIMINIG DIAGRAM" src="https://github.com/user-attachments/assets/c5f85252-5e86-4ef2-913e-cb7697b5cf4e" />
+
 
 **RESULTS**
