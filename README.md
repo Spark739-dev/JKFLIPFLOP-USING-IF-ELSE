@@ -53,29 +53,38 @@ step-6 Run the program.
 
     /* Program for flipflops and verify its truth table in quartus using Verilog programming.
 
-    module jkflipflop(clk,j,k,q,qbar);
-    input j,k,clk;
+    module testing(clk, j, k, q, qbar);
+    input j, k, clk;
     output reg q;
     output qbar;
-    always@(posedge clk)
-    begin
-    q=((~q)&j)|((~k)&q);
+    always @(posedge clk) begin
+           if (j == 0 && k == 0)
+                q <= q;          
+            else if (j == 0 && k == 1)
+                q <= 0;           
+            else if (j == 1 && k == 0)
+                q <= 1;           
+            else if (j == 1 && k == 1)
+                q <= ~q;          
     end
-    assign qbar=~q;
+    assign qbar = ~q;
     endmodule
 
     */
 
 **RTL LOGIC FOR FLIPFLOPS**
 
-<img width="1918" height="1148" alt="RTL" src="https://github.com/user-attachments/assets/0b4a9fbb-9b87-43f3-9a7c-01df0d5f538e" />
+<img width="1918" height="1138" alt="RTL 1" src="https://github.com/user-attachments/assets/822c703b-7f4b-491b-a55a-5ce4c3844c22" />
+
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-<img width="1918" height="1140" alt="TIMINIG DIAGRAM" src="https://github.com/user-attachments/assets/c5f85252-5e86-4ef2-913e-cb7697b5cf4e" />
+
+<img width="1918" height="1137" alt="TIMING DIAGRAM 1" src="https://github.com/user-attachments/assets/da91d04b-2cb0-4b90-905f-96a3b0b63cfd" />
+
 
 
 **RESULTS**
 
-Thus the JK flipflop is implemented and verified using Verilog HDL Programming.
+Thus the JK flipflop is implemented using IF-ELSE Condition and verified using Verilog HDL Programming.
